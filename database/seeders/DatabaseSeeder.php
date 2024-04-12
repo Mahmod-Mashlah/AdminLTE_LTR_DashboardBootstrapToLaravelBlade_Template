@@ -19,5 +19,12 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
+
+        $this->call([
+            UserSeeder::class,
+            // Other seeders can go here
+
+            // run : php artisan migrate:fresh --seed
+        ]);
     }
 }

@@ -1,7 +1,9 @@
 <!-- jQuery -->
 {{-- <script src="plugins/jquery/jquery.min.js"></script> --}}
+{{-- instead of previous code that 👇 --}}
+{{-- <script src="{{ asset('assets/plugins/jquery/jquery.min.js') }}"></script> --}}
+{{-- or --}}
 <script type="text/javascript" src="{{ URL::asset('assets/plugins/jquery/jquery.min.js') }}"></script>
-
 <!-- jQuery UI 1.11.4 -->
 {{-- <script src="plugins/jquery-ui/jquery-ui.min.js"></script> --}}
 <script type="text/javascript" src="{{ URL::asset('assets/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
@@ -66,8 +68,7 @@
 {{-- <script src="dist/js/pages/dashboard.js"></script> --}}
 <script type="text/javascript" src="{{ URL::asset('assets/js/pages/dashboard.js') }}"></script>
 
-
-
+@yield('javascript')
 {{-- Preloader  --}}
 <script>
     // After 0.5 seconds, add the 'loaded' class to the body
