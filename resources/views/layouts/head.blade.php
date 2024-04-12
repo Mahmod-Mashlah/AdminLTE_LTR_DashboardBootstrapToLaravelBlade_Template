@@ -1,4 +1,5 @@
-<title>AdminLTE 3 | Dashboard</title>
+{{-- Title Yield --}}
+<title>@yield('title')</title>
 
 <!-- Google Font: Source Sans Pro -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -46,3 +47,6 @@
 
 <!-- PreLoader -->
 <link rel="stylesheet" href="{{ asset('assets/css/preloader2.css') }}">
+
+<!-- Css -->
+@yield('css')
