@@ -26,3 +26,5 @@
     <!-- Theme style -->
     {{-- <link rel="stylesheet" href="../../dist/css/adminlte.min.css"> --}}
     <link rel="stylesheet" href="{{ asset('assets/css/adminlte.min.css') }}">
+
+    {{-- 😀🧨🧨 Maybe you need to define additional css links HERE 😀🧨🧨  --}}
