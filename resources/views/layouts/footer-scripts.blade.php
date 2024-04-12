@@ -65,3 +65,13 @@
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 {{-- <script src="dist/js/pages/dashboard.js"></script> --}}
 <script type="text/javascript" src="{{ URL::asset('assets/js/pages/dashboard.js') }}"></script>
+
+
+
+{{-- Preloader  --}}
+<script>
+    // After 0.5 seconds, add the 'loaded' class to the body
+    setTimeout(function() {
+        document.body.classList.add('loaded');
+    }, 500);
+</script>

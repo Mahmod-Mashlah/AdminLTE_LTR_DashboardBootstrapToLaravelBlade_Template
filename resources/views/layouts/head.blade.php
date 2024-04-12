@@ -42,3 +42,7 @@
 <!-- summernote -->
 {{-- <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css"> --}}
 <link rel="stylesheet" href="{{ asset('assets/plugins/summernote/summernote-bs4.min.css') }}">
+
+
+<!-- PreLoader -->
+<link rel="stylesheet" href="{{ asset('assets/css/preloader2.css') }}">
